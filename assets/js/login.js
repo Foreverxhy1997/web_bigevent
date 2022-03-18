@@ -52,7 +52,7 @@ $(function(){
             layer.msg('登录成功！')
             //将登录成功得到的token字符串，保存到localStorage中
             localStorage.setItem('token',res.token)
-            // ???location.href = 'login.html'
+            location.href = 'D:\\Desktop\\04-大事件项目课程资料（第九章大事件后台管理系统项目）\\day1（1-3小节）\\素材\\index.html'
         })
     })
 });
