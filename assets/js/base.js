@@ -3,7 +3,7 @@
 
 $.ajaxPrefilter(function(options){
     // console.log(options.url)
-    options.url = 'http://www.liulongbin.top:3007'+options.url        //headers就是请求头对象,这里在通信时一定要设置请求头，这里是要读取本地保存的Token
+    options.url = 'http://api-breakingnews-web.itheima.net'+options.url        //headers就是请求头对象,这里在通信时一定要设置请求头，这里是要读取本地保存的Token
     if(options.url.indexOf('/my/')!==-1)
     {
         options.headers = {
